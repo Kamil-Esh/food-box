@@ -27,13 +27,8 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 150px;
+    padding: 50px 0;
 }
-
-::placeholder {
-    color: #DBDBDB;
-}
-
 .checkout, .header-input {
     width: 387px;
 }
@@ -61,9 +56,11 @@ img {
     width: 227px;
     padding: 0 35px 0 20px;
     border-radius: 19px;
-    background-color: #EDEDED;
-    font-size: 14px;
+    background-color: #EDEDED;  
     margin-right: 30px;
+}
+.input-search::placeholder {
+    color: #DBDBDB;
 }
 
 .input-svg {
@@ -139,7 +136,7 @@ img {
 .custom-label {
     margin-bottom: 30px;
 }
-::placeholder {
+.form-input::placeholder {
     font-weight: 500;
     font-size: 24px;
     line-height: 29px;
@@ -228,7 +225,8 @@ textarea[class='form-input'] {
 }
 .footer {
     background: url("../images/Footer img.png") no-repeat bottom center/cover;
-    margin: 17px 0 0;
+    margin: 15px 0 0;
+    padding: 51px 0 17px;
 }
 
 .footer-logo {
@@ -253,7 +251,9 @@ textarea[class='form-input'] {
     color: #808080;
     padding-right: 80px;
 }
-
+.right-side {
+    display: flex;
+}
 .right-side a {
     font-weight: 500;
     font-size: 14px;
@@ -268,4 +268,5 @@ textarea[class='form-input'] {
     line-height: 15px;
     color: #808080;
     padding-top: 15px;
+    font-weight: 400;
 }
